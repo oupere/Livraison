@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ifnti.alafiakidimdigore">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AlafiaKidimDigore"
+        tools:targetApi="31">
+        <activity
+            android:name=".AfficherClient"
+            android:exported="false" />
+        <activity
+            android:name=".InformationClient"
+            android:exported="false" />
+        <activity
+            android:name=".Information_client"
+            android:exported="false" />
+        <activity
+            android:name=".HomeClient"
+            android:exported="false" />
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PanierActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CommandeEncours"
+            android:exported="false" />
+        <activity
+            android:name=".HomeLivreur"
+            android:exported="false" />
+        <activity
+            android:name=".GerantActivity"
+            android:exported="false"
+            android:label="@string/title_activity_gerant"
+            android:theme="@style/Theme.AlafiaKidimDigore.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

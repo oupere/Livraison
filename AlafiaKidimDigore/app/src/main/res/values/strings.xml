@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">AlafiaKidimDigore</string>
+    <string name="title_activity_gerant">GerantActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="alafia_kidim_digore">Alafia Kidim Digore</string>
+    <string name="email">alafiakidim@gmail.com</string>
+    <string name="ajout_plat">Ajouter un plat</string>
+    <string name="liste_commande">Liste commande</string>
+    <string name="current_orders">Commande en cours</string>
+    <string name="passer_commande">Passer une commande</string>
+    <string name="les_commandes"> les commandes en cours</string>
+    <string name="liv_en_attente">livraison en attente</string>
+    <string name="pass_cmd">Passez la commande</string>
+    <string name="welcome_title">Welcome in \n Food Delivery Mobile App</string>
+    <string name="voir_plus">Voir plus</string>
+    <string name="plats_disponibles">Plats disponibles</string>
+    <string name="todo">TODO</string>
+    <string name="recherchez_votre_plat_pr_f_r">Recherchez votre plat préféré</string>
+    <string name="cat_gories_de_plat">Catégories de plat</string>
+    <string name="todoo">TODO</string>
+    <string name="home">Home</string>
+    <string name="todoi">TODO</string>
+    <string name="profile">Profile</string>
+    <string name="n">TODO</string>
+    <string name="panier">Panier</string>
+    <string name="todoj">TODO</string>
+    <string name="support">Support</string>
+    <string name="todog">TODO</string>
+    <string name="param_tres">Paramètres</string>
+    <string name="img" />
+</resources>

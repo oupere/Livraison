@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<project name="" company="" manager="" phase="" project-start="20211224T000000Z" mrproject-version="2" calendar="1">
+<project name="Alafia Kidim Digoré" company="" manager="" phase="" project-start="20211224T000000Z" mrproject-version="2" calendar="1">
   <properties/>
   <phases/>
   <calendars>
@@ -55,7 +55,7 @@
         <predecessor id="1" predecessor-id="3" type="FS"/>
       </predecessors>
     </task>
-    <task id="8" name="G&#xE9;n&#xE9;ration du code Java" note="" work="72000" start="20220429T101640Z" end="20220504T102140Z" work-start="20220429T101640Z" percent-complete="10" priority="0" type="normal" scheduling="fixed-work">
+    <task id="8" name="G&#xE9;n&#xE9;ration du code Java" note="" work="72000" start="20220429T101640Z" end="20220504T102140Z" work-start="20220429T101640Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="19" type="FS"/>
         <predecessor id="1" predecessor-id="7" type="FS"/>
@@ -67,28 +67,22 @@
         <predecessor id="1" predecessor-id="7" type="FS"/>
       </predecessors>
     </task>
-    <task id="10" name="G&#xE9;n&#xE9;ration des tests unitaires" note="" work="18000" start="20220504T102140Z" end="20220509T112140Z" work-start="20220504T102140Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="10" name="G&#xE9;n&#xE9;ration des tests unitaires" note="" work="18000" start="20220504T102140Z" end="20220509T112140Z" work-start="20220504T102140Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="8" type="FS"/>
       </predecessors>
     </task>
-    <task id="11" name="Codage des tests unitaires" note="" work="259200" start="20220509T112140Z" end="20220517T112140Z" work-start="20220509T112140Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="11" name="Codage des tests unitaires" note="" work="259200" start="20220509T112140Z" end="20220517T112140Z" work-start="20220509T112140Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="10" type="FS"/>
         <predecessor id="1" predecessor-id="8" type="FS"/>
       </predecessors>
     </task>
-    <task id="12" name="Modification des m&#xE9;thodes et execution des tests unitaires" note="" work="259200" start="20220517T112140Z" end="20220525T112140Z" work-start="20220517T112140Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="12" name="Modification des m&#xE9;thodes et execution des tests unitaires" note="" work="259200" start="20220517T112140Z" end="20220525T112140Z" work-start="20220517T112140Z" percent-complete="70" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="11" type="FS"/>
       </predecessors>
-    </task>
-    <task id="13" name="DAO " note="" work="86400" start="20220418T101640Z" end="20220421T101640Z" work-start="20220418T101640Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-      <predecessors>
-        <predecessor id="1" predecessor-id="7" type="FS"/>
-      </predecessors>
-    </task>
-    <task id="14" name="Vue" note="" work="259200" start="20220127T110000Z" end="20220204T110000Z" work-start="20220127T110000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="14" name="Vue" note="" work="259200" start="20220127T110000Z" end="20220204T110000Z" work-start="20220127T110000Z" percent-complete="0" priority="40" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="3" type="FS"/>
       </predecessors>
@@ -98,22 +92,22 @@
         <predecessor id="1" predecessor-id="14" type="FS"/>
       </predecessors>
     </task>
-    <task id="16" name="D&#xE9;bugage du code" note="" work="86400" start="20220602T112140Z" end="20220607T112140Z" work-start="20220602T112140Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="16" name="D&#xE9;bugage du code" note="" work="86400" start="20220602T112140Z" end="20220607T112140Z" work-start="20220602T112140Z" percent-complete="20" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="4" type="FS"/>
       </predecessors>
     </task>
-    <task id="17" name="Tests d'int&#xE9;gration" note="" work="259200" start="20220607T112140Z" end="20220610T112140Z" work-start="20220607T112140Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="17" name="Tests d'int&#xE9;gration" note="" work="259200" start="20220607T112140Z" end="20220610T112140Z" work-start="20220607T112140Z" percent-complete="30" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="16" type="FS"/>
       </predecessors>
     </task>
-    <task id="18" name="Rapport " note="" work="86400" start="20220214T110000Z" end="20220217T110000Z" work-start="20220214T110000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="18" name="Rapport " note="" work="86400" start="20220214T110000Z" end="20220217T110000Z" work-start="20220214T110000Z" percent-complete="0" priority="100" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="15" type="FS"/>
       </predecessors>
     </task>
-    <task id="19" name="gestion de projet" note="" work="259200" start="20220418T101640Z" end="20220429T101640Z" work-start="20220418T101640Z" percent-complete="30" priority="0" type="normal" scheduling="fixed-work">
+    <task id="19" name="gestion de projet" note="" work="259200" start="20220418T101640Z" end="20220429T101640Z" work-start="20220418T101640Z" percent-complete="70" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="7" type="FS"/>
         <predecessor id="1" predecessor-id="6" type="FS"/>
@@ -131,19 +125,19 @@
   <allocations>
     <allocation task-id="16" resource-id="1" units="100"/>
     <allocation task-id="18" resource-id="1" units="50"/>
-    <allocation task-id="14" resource-id="1" units="150"/>
+    <allocation task-id="14" resource-id="1" units="210"/>
     <allocation task-id="13" resource-id="1" units="50"/>
     <allocation task-id="17" resource-id="1" units="150"/>
-    <allocation task-id="10" resource-id="1" units="20"/>
+    <allocation task-id="10" resource-id="1" units="30"/>
     <allocation task-id="8" resource-id="1" units="83"/>
     <allocation task-id="7" resource-id="1" units="21"/>
     <allocation task-id="6" resource-id="1" units="15"/>
     <allocation task-id="5" resource-id="1" units="18"/>
     <allocation task-id="12" resource-id="1" units="150"/>
     <allocation task-id="1" resource-id="1" units="10"/>
-    <allocation task-id="2" resource-id="1" units="6"/>
+    <allocation task-id="2" resource-id="1" units="10"/>
     <allocation task-id="19" resource-id="2" units="100"/>
-    <allocation task-id="11" resource-id="2" units="150"/>
+    <allocation task-id="11" resource-id="2" units="200"/>
     <allocation task-id="18" resource-id="2" units="50"/>
     <allocation task-id="15" resource-id="2" units="100"/>
     <allocation task-id="13" resource-id="2" units="50"/>
