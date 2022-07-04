@@ -69,13 +69,6 @@
             android:text="Enregistrer"
             android:textAllCaps="false" />
 
-        <Button
-            android:id="@+id/btnAfficher"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="30dp"
-            android:text="Afficher"
-            android:textAllCaps="false" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

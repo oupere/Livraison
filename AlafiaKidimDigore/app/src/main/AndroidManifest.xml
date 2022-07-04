@@ -17,9 +17,6 @@
         android:theme="@style/Theme.AlafiaKidimDigore"
         tools:targetApi="31">
         <activity
-            android:name=".AfficherClient"
-            android:exported="false" />
-        <activity
             android:name=".InformationClient"
             android:exported="false" />
         <activity
